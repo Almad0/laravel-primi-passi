@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel prima prova</title>
+        <title>Laravel about us</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -33,9 +33,9 @@
         </header>
 
         <main>
-          <h1>Home Page</h1>
+          <h1>About Us</h1>
           <h2>prova Laravel</h2>
-          <p>clicca <a href="/about_us">QUI</a> per cambiare pagina</p>
+          <p>clicca <a href="/">QUI</a> per tornare alla Homepage</p>
         </main>
 
         <footer>

@@ -1,0 +1,26 @@
+header{
+  height: 10vh;
+  border-bottom: 1px solid red;
+  background-color: #e1d6fe;
+}
+
+header nav{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .rightNav ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav .rightNav ul li{
+  margin: 0 20px;
+  list-style: none;
+}

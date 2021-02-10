@@ -1,0 +1,18 @@
+footer{
+  background-color: #64558e;
+  height: 10vh;
+  border-top: 1px solid red;
+  color: lightgrey;
+}
+
+footer .footerContainer{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .colonna{
+  padding: 20px;
+}
