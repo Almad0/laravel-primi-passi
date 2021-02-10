@@ -15,22 +15,8 @@
     </head>
 
     <body>
-        <header>
-          <nav>
-            <div class="leftNav">
-              <p>Logo casuale</p>
-            </div>
-            <div class="rightNav">
-              <ul>
-                <li><p>menu1</p></li>
-                <li><p>menu2</p></li>
-                <li><p>menu3</p></li>
-                <li><p>menu4</p></li>
-                <li><p>menu5</p></li>
-              </ul>
-            </div>
-          </nav>
-        </header>
+
+      @include('header')
 
         <main>
           <h1>About Us</h1>
@@ -38,21 +24,7 @@
           <p>clicca <a href="/">QUI</a> per tornare alla Homepage</p>
         </main>
 
-        <footer>
-          <div class="footerContainer">
-            <div class="colonna">
-              <p>Testo nel footer</p>
-            </div>
-            <div class="colonna">
-              <p>Testo nel footer</p>
-            </div>
-            <div class="colonna">
-              <p>Testo nel footer</p>
-            </div>
-            <div class="colonna">
-              <p>Testo nel footer</p>
-            </div>
-          </div>
-        </footer>
+      @include('footer')
+
     </body>
 </html>

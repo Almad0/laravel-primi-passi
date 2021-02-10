@@ -1,4 +1,5 @@
 <header>
+  <link rel="stylesheet" href="{{ asset('/css/headerStyle.css') }}"/>
   <nav>
     <div class="leftNav">
       <p>Logo casuale</p>

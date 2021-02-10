@@ -4,37 +4,6 @@
   box-sizing: border-box;
 }
 
-header{
-  height: 10vh;
-  border-bottom: 1px solid red;
-  background-color: #e1d6fe;
-}
-
-header nav{
-  width: 90%;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header nav .rightNav ul{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-header nav .rightNav ul li{
-  margin: 0 20px;
-  list-style: none;
-}
-
-
-
-
-
 main{
   background-color: #bba3ff;
   height: 80vh;
@@ -45,7 +14,7 @@ main{
 }
 
 main h1, h2, p{
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 main h1{
@@ -58,26 +27,4 @@ main h2{
 
 main p{
   font-size: 1.5rem;
-}
-
-
-
-
-footer{
-  background-color: #64558e;
-  height: 10vh;
-  border-top: 1px solid red;
-  color: lightgrey;
-}
-
-footer .footerContainer{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer .colonna{
-  padding: 20px;
 }
